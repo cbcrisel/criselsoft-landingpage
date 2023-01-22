@@ -77,29 +77,8 @@
     }
 }
 
-.star-pulse-3 {
-    animation: star-pulse-3 2s ease 0s infinite normal forwards;
-}
 
-@keyframes star-pulse-3 {
-    30% {
-        transform: scale(1);
-    }
-
-    65% {
-        transform: scale(1.1);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-df-messenger {
-    --df-messenger-bot-message: #878fac;
-    --df-messenger-button-titlebar-color: #00ff0d;
-    --df-messenger-chat-background-color: #fafafa;
-    --df-messenger-font-color: white;
-    --df-messenger-send-icon: #878fac;
-    --df-messenger-user-message: #0051ff;
+.centeredCard{
+    display: flex;
+    justify-content: center;
 }
